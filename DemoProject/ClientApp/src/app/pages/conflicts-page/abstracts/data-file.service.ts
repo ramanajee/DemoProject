@@ -36,7 +36,9 @@ export class DataFileService {
     }))
   }
 
-  getConflictsByCompanyId(id: string): Observable<any>
+  getConflictsByCompanyId(id: string): Observable<IConflicts> {
+    return this.http.get<IConflicts>('https://euedgfuncm01.azurewebsites.net/api/allconflicts?code=LFnz8tmkbMaBxsGaCKvyeq6/5kzvlaVXu3wbHoCwtdG3hVyVPRVGpg==').pipe(map(response => response));
+  }
 
   private handleError(error: HttpErrorResponse) {
     if (error.error instanceof ErrorEvent) {
@@ -58,7 +60,7 @@ export class DataFileService {
 
 /** Interfaces */
 
-export interface Welcome {
+export interface IConflicts {
   Values: Value[];
   Filters: Filters;
   Code: number;
