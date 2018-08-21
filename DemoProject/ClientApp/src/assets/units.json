@@ -1,0 +1,912 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href":
+        "https://cnh-evo-beta-api.azure-api.net/fleet-restapi/units?page=0&size=20"
+    }
+  ],
+  "content": [
+    {
+      "id": "712316c4-cc27-e447-7013-ba28dbb6296d",
+      "name": "1223-09000254",
+      "serialNumber": "1223-09000254",
+      "model": "Magnum 340",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [45.1943702, 7.7222471],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 0,
+        "name": "OFF"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-05-04T11:37:18Z",
+      "parameters": [
+        {
+          "label": "Engine hours",
+          "value": 2474,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "b3a89a3c-8c56-9435-1431-1b50a1dde2b5",
+      "name": "1223-09000554",
+      "serialNumber": "1223-09000554",
+      "model": "Axial-Flow 8230",
+      "brand": "Case IH",
+      "type": {
+        "code": "COMBINE",
+        "name": "Combine"
+      },
+      "location": [45.1948661, 7.7264637],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 0,
+        "name": "OFF"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-05-04T08:36:39Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 11.999,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 122,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 14,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 0,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "3a0ff5ef-7ba6-4b51-b67c-037ed98cc864",
+      "name": "1223-090009FD",
+      "serialNumber": "1223-090009FD",
+      "model": "Magnum 340",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [45.0299949, 7.6651368],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 0,
+        "name": "OFF"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-07-06T13:20:59Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 8.999,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 70,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil pressure",
+          "value": 40,
+          "unit": "kPa",
+          "code": "ENG_OIL_PRESSURE"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 600,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel Rate - Average",
+          "value": 3276.75,
+          "unit": "L/h",
+          "code": "FUEL_RATE_AVG"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 0,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "DEF Level",
+          "value": 984,
+          "unit": "%",
+          "code": "UREA"
+        }
+      ]
+    },
+    {
+      "id": "JJAT8435VHRE06023",
+      "name": "BR_Bench_6023",
+      "serialNumber": "PCM 64326023848/FA213AA8",
+      "model": "CH26",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.7635884, -87.9225755667],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 23,
+        "name": "WORKING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-05-09T05:58:43Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": 23,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 42.85,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 0,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil pressure",
+          "value": 100,
+          "unit": "kPa",
+          "code": "ENG_OIL_PRESSURE"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": 24.781,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 0,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 6.214,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 255.992,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "Rear PTO Speed",
+          "value": 0,
+          "unit": "rpm",
+          "code": "REAR_PTO_SPEED"
+        },
+        {
+          "label": "Transmission Oil Temp",
+          "value": 1774.968,
+          "unit": "°C",
+          "code": "TRANS_OIL_TEMP"
+        },
+        {
+          "label": "DEF Level",
+          "value": 51.2,
+          "unit": "%",
+          "code": "UREA"
+        }
+      ]
+    },
+    {
+      "id": "4WUY70963626515",
+      "name": "PCM 70963626515",
+      "serialNumber": "PCM 70963626515",
+      "model": "CH26",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.7645307, -87.9235234],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 16,
+        "name": "MOVING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-06-12T07:13:03Z",
+      "parameters": [
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "1FUY3EDB8XPA0014",
+      "name": "PCM 71199543997",
+      "serialNumber": "PCM 71199543997",
+      "model": "CH26",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.7638748167, -87.92278015],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 0
+      },
+      "heading": 0,
+      "lastUpdate": "2018-06-05T14:59:58Z",
+      "parameters": [
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "11111111111111111",
+      "name": "PCM_FEDE",
+      "serialNumber": "PCM_FEDE",
+      "model": "CH26",
+      "brand": "New Holland AG",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.733977, -18.550651],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 23,
+        "name": "WORKING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-02-01T15:45:16Z",
+      "parameters": [
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "990002185263694",
+      "name": "PCM_TV_GERMANY",
+      "serialNumber": "1",
+      "model": "CH26",
+      "brand": "New Holland AG",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "70963616772",
+      "name": "PCM_TV_US",
+      "serialNumber": "1",
+      "model": "CH26",
+      "brand": "New Holland AG",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "parameters": [
+        {
+          "label": "Ground speed",
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "1FUY3EDB8XPA0012",
+      "name": "PV Test Bench",
+      "serialNumber": "PCM 70769712021",
+      "model": "CH26",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.733977, -18.550651],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 23,
+        "name": "WORKING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-02-01T15:45:16Z",
+      "parameters": [
+        {
+          "label": "Engine hours",
+          "value": 123,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 56,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 35,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "51927b70-06f0-6264-3c6d-0153c30c88cf",
+      "name": "QA 1223-0900022B",
+      "serialNumber": "1223-0900022B",
+      "model": "Magnum 340",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [41.7635116, -87.9225082],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 17,
+        "name": "WORKING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-06-05T18:09:27Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": 20,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 2.15,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 0,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil pressure",
+          "value": 648,
+          "unit": "kPa",
+          "code": "ENG_OIL_PRESSURE"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": 20,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 800,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel Rate - Average",
+          "value": 3276.75,
+          "unit": "L/h",
+          "code": "FUEL_RATE_AVG"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 102,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 12.546,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "Transmission Oil Temp",
+          "value": 20,
+          "unit": "°C",
+          "code": "TRANS_OIL_TEMP"
+        },
+        {
+          "label": "DEF Level",
+          "value": 94,
+          "unit": "%",
+          "code": "UREA"
+        }
+      ]
+    },
+    {
+      "id": "611f7d68-9c59-1a2a-cb94-e1f132a2c07c",
+      "name": "QA 1223-0900399B",
+      "serialNumber": "1223-0900399B",
+      "model": "Axial-Flow 8230",
+      "brand": "Case IH",
+      "type": {
+        "code": "COMBINE",
+        "name": "Combine"
+      },
+      "location": [41.7634658, -87.9225692],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        },
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 10,
+        "name": "KEYON"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-07-06T13:23:03Z",
+      "speed": 0,
+      "parameters": [
+        {
+          "label": "Engine hours",
+          "value": 1.6500000000000001,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 0,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine speed",
+          "value": 800,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel Rate - Average",
+          "value": 3276.75,
+          "unit": "L/h",
+          "code": "FUEL_RATE_AVG"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 102,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 0,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "Transmission Oil Temp",
+          "value": 20,
+          "unit": "°C",
+          "code": "TRANS_OIL_TEMP"
+        }
+      ]
+    },
+    {
+      "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+      "name": "QA AM53 1223-09001CF1",
+      "serialNumber": "1223-09001CF1",
+      "model": "Axial-Flow 8230",
+      "brand": "Case IH",
+      "type": {
+        "code": "COMBINE",
+        "name": "Combine"
+      },
+      "location": [41.7635116, -87.9222793],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 12,
+        "name": "IDLE"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-07-06T13:23:10Z",
+      "speed": 0,
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": 25,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 16.0939938,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 5,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil pressure",
+          "value": 830,
+          "unit": "kPa",
+          "code": "ENG_OIL_PRESSURE"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": 60,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 1270,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel Rate - Average",
+          "value": 6.1000000000000005,
+          "unit": "L/h",
+          "code": "FUEL_RATE_AVG"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 78.80000000000001,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 0,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "Moisture - Average",
+          "value": 11.4,
+          "unit": "%",
+          "code": "MOISTURE"
+        },
+        {
+          "label": "Transmission Oil Temp",
+          "value": 20,
+          "unit": "°C",
+          "code": "TRANS_OIL_TEMP"
+        },
+        {
+          "label": "DEF Level",
+          "value": 26.8,
+          "unit": "%",
+          "code": "UREA"
+        },
+        {
+          "label": "Yield, Avg-Dry (bu)",
+          "value": 250,
+          "unit": "bu/ac",
+          "code": "YIELD_AVG_DRY_BU"
+        },
+        {
+          "label": "Yield, Avg-Wet (bu)",
+          "value": 250,
+          "unit": "bu/ac",
+          "code": "YIELD_AVG_WET_BU"
+        }
+      ]
+    },
+    {
+      "id": "cd87016e-9926-264a-789e-98526abbb8c0",
+      "name": "QA AM53 1223-09003638",
+      "serialNumber": "1223-09003638",
+      "model": "Axial-Flow 8230",
+      "brand": "Case IH",
+      "type": {
+        "code": "COMBINE",
+        "name": "Combine"
+      },
+      "location": [45.1943702, 7.7222471],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 0,
+        "name": "OFF"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-04-09T13:16:29Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 0,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 0,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 200,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 4,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 0.998,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        }
+      ]
+    },
+    {
+      "id": "89f8354c-f32f-d477-7dbe-c74fa0584fa4",
+      "name": "TEST - AM53 1223-09000969",
+      "serialNumber": "SN TEST 1",
+      "model": "Magnum 340",
+      "brand": "Case IH",
+      "type": {
+        "code": "TRACTOR",
+        "name": "Tractor"
+      },
+      "location": [45.2003974, 7.7253742],
+      "fleets": [
+        {
+          "id": 1,
+          "name": "CNH EVO"
+        }
+      ],
+      "status": {
+        "id": 10,
+        "name": "WORKING"
+      },
+      "heading": 0,
+      "lastUpdate": "2018-04-18T13:19:34Z",
+      "parameters": [
+        {
+          "label": "Engine coolant temp.",
+          "value": -40,
+          "unit": "°C",
+          "code": "ENG_COOLANT_TEMP"
+        },
+        {
+          "label": "Engine hours",
+          "value": 7,
+          "unit": "h",
+          "code": "ENG_HOUR"
+        },
+        {
+          "label": "Engine load",
+          "value": 3,
+          "unit": "%",
+          "code": "ENG_LOAD"
+        },
+        {
+          "label": "Engine oil pressure",
+          "value": 20,
+          "unit": "kPa",
+          "code": "ENG_OIL_PRESSURE"
+        },
+        {
+          "label": "Engine oil temp.",
+          "value": 4,
+          "unit": "°C",
+          "code": "ENG_OIL_TEMP"
+        },
+        {
+          "label": "Engine speed",
+          "value": 70,
+          "unit": "rpm",
+          "code": "ENG_SPEED"
+        },
+        {
+          "label": "Fuel tank level",
+          "value": 70,
+          "unit": "%",
+          "code": "FUEL_TANK_LEVEL"
+        },
+        {
+          "label": "Ground speed",
+          "value": 0.998,
+          "unit": "Km/h",
+          "code": "GROUND_SPEED"
+        },
+        {
+          "label": "Transmission Oil Temp",
+          "value": 5,
+          "unit": "°C",
+          "code": "TRANS_OIL_TEMP"
+        },
+        {
+          "label": "DEF Level",
+          "value": 4,
+          "unit": "%",
+          "code": "UREA"
+        }
+      ]
+    }
+  ],
+  "page": {
+    "size": 20,
+    "totalElements": 15,
+    "totalPages": 1,
+    "number": 0
+  }
+}

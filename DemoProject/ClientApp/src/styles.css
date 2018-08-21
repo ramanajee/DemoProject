@@ -1,1 +1,895 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+:root {
+  --color-status-active: #25b03d;
+  --color-status-idle: #f47825;
+  --color-status-keyon: #e7a603;
+  --color-guide-container: rgba(187, 222, 255, 0.3);
+  --color-guide-pressable: rgba(255, 85, 0, 0.3);
+  --color-status-traveling: #035db1;
+  --color-status-moving: #01a8b4;
+  --color-status-inactive: #adadad;
+  --color-primary-guide: #37373e;
+  --color-secondary-guide: #2273d1;
+  --color-primary-caseih: #a21c22;
+  --color-secondary-caseih: #3d3d3d;
+  --color-primary-nh: #003e85;
+  --color-secondary-nh: #f1b514;
+  --color-selection: rgba(175, 192, 212, 0.15);
+  --color-hover: rgba(187, 187, 187, 0.15);
+  --color-error: #bd1d22;
+  --black: #000000;
+  --color-main-grey: #262626;
+  --color-medium-grey: #4c4c51;
+  --color-med-grey: #707070;
+  --color-white: #ffffff;
+  --color-extra-light-grey: #f4f5f5;
+  --color-light-grey: #dcdcdc;
+  --color-grey: #bbbbbb;
+  --color-severity-high: #ed1f24;
+  --color-severity-med: #f3b012;
+  --color-severity-low: #1d76bb;
+  --color-operation-planting-seeding: #239546;
+  --color-operation-spraying: #439ce5;
+  --color-operation-harvesting: #d5a740;
+  --color-operation-swathing-mowing: #da762c;
+  --color-operation-tillage: #705439;
+  --color-operation-spreading: #7858ba;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f5f5;
+  height: 100%;
+  overflow: hidden;
+}
+.db-container,
+.db-small-container {
+  padding: 1em;
+  display: grid;
+  grid-gap: 1em;
+}
+.db-container {
+  grid-template: 449px / 1fr 1fr 1fr;
+}
+.db-small-container {
+  grid-template: 264px / 1fr 1fr 1fr;
+}
+.card,
+.small-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+.card {
+  min-height: 449px;
+}
+.small-card {
+  min-height: 264px;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+}
+.card-header {
+  display: flex;
+  padding: 0.75em;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  min-height: 40px;
+  height: 40px;
+}
+.card-header span {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.card-header p {
+  text-transform: uppercase;
+}
+.card-header p > span:first-child {
+  font-weight: 300;
+  font-size: 10pt;
+}
+.card-header p > span:last-child {
+  font-weight: 700;
+  margin-left: 0.75em;
+}
+.card-chart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  border-bottom: 1px solid #e2e2e2;
+  min-height: 196px;
+}
+.chart-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: auto;
+}
+.chart-label {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  cursor: pointer;
+}
+.card-data {
+  overflow-y: auto;
+  min-height: 224px;
+}
+
+body,
+html {
+  font-weight: 400;
+  height: 100%;
+  min-width: 1024px;
+  background-color: #f4f5f5;
+  overflow-x: auto;
+}
+.mcl-full-bkg {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10000;
+}
+.mcl-full-bkg.black-gradient {
+  background-image: none;
+  background: radial-gradient(#40404b, #111118) rgba(34, 34, 40, 0.94);
+  background-size: auto;
+}
+.search-highlight {
+  background: #ff0 !important;
+}
+.nav-drawer.open {
+  z-index: 111 !important;
+}
+@font-face {
+  font-family: 'cnh-evo-iconfont';
+  src: url('./assets/fonts/cnh-evo-iconfont.eot');
+  src: url('./assets/fonts/cnh-evo-iconfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/cnh-evo-iconfont.woff') format('woff'),
+    url('./assets/fonts/cnh-evo-iconfont.ttf') format('truetype'),
+    url('./assets/fonts/cnh-evo-iconfont.svg#cnh-evo-iconfont') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: small;
+}
+
+.cnh-evo-iconfont {
+  font-family: 'cnh-evo-iconfont' !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cnh-evo-iconfont {
+  font-family: 'cnh-evo-iconfont' !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cnh-evo-icon-add:before {
+  content: '\61';
+}
+
+.cnh-evo-icon-add-share:before {
+  content: '\62';
+}
+
+.cnh-evo-icon-alarm-bell:before {
+  content: '\64';
+}
+
+.cnh-evo-icon-analysis:before {
+  content: '\65';
+}
+
+.cnh-evo-icon-apps:before {
+  content: '\66';
+}
+
+.cnh-evo-icon-area-polygon:before {
+  content: '\67';
+}
+
+.cnh-evo-icon-arrow2-down:before {
+  content: '\68';
+}
+
+.cnh-evo-icon-arrow2-down-1:before {
+  content: '\69';
+}
+
+.cnh-evo-icon-arrow2-left:before {
+  content: '\6a';
+}
+
+.cnh-evo-icon-arrow2-left-1:before {
+  content: '\6b';
+}
+
+.cnh-evo-icon-arrow2-right:before {
+  content: '\6c';
+}
+
+.cnh-evo-icon-arrow2-right-1:before {
+  content: '\6d';
+}
+
+.cnh-evo-icon-arrow2-up:before {
+  content: '\6e';
+}
+
+.cnh-evo-icon-arrow2-up-1:before {
+  content: '\6f';
+}
+
+.cnh-evo-icon-arrow-down:before {
+  content: '\71';
+}
+
+.cnh-evo-icon-arrow-down-01:before {
+  content: '\72';
+}
+
+.cnh-evo-icon-arrow-down-bold:before {
+  content: '\73';
+}
+
+.cnh-evo-icon-arrow-left:before {
+  content: '\74';
+}
+
+.cnh-evo-icon-arrow-left-down:before {
+  content: '\75';
+}
+
+.cnh-evo-icon-arrow-right:before {
+  content: '\76';
+}
+
+.cnh-evo-icon-arrow-right-up:before {
+  content: '\77';
+}
+
+.cnh-evo-icon-arrow-up:before {
+  content: '\78';
+}
+
+.cnh-evo-icon-arrow-up-01:before {
+  content: '\79';
+}
+
+.cnh-evo-icon-bookmark-empty:before {
+  content: '\7a';
+}
+
+.cnh-evo-icon-bookmark-fill:before {
+  content: '\41';
+}
+
+.cnh-evo-icon-buffer:before {
+  content: '\42';
+}
+
+.cnh-evo-icon-cancel:before {
+  content: '\43';
+}
+
+.cnh-evo-icon-check:before {
+  content: '\44';
+}
+
+.cnh-evo-icon-check-square:before {
+  content: '\45';
+}
+
+.cnh-evo-icon-checkbox-partial:before {
+  content: '\46';
+}
+
+.cnh-evo-icon-checkbox-selected:before {
+  content: '\47';
+}
+
+.cnh-evo-icon-checkbox-unselected:before {
+  content: '\48';
+}
+
+.cnh-evo-icon-chevron-down:before {
+  content: '\49';
+}
+
+.cnh-evo-icon-chevron-right:before {
+  content: '\4b';
+}
+
+.cnh-evo-icon-chevron-up:before {
+  content: '\4c';
+}
+
+.cnh-evo-icon-circle:before {
+  content: '\4d';
+}
+
+.cnh-evo-icon-circle-cancel:before {
+  content: '\4e';
+}
+
+.cnh-evo-icon-circle-check:before {
+  content: '\4f';
+}
+
+.cnh-evo-icon-circle-time:before {
+  content: '\50';
+}
+
+.cnh-evo-icon-close:before {
+  content: '\51';
+}
+
+.cnh-evo-icon-close2:before {
+  content: '\52';
+}
+
+.cnh-evo-icon-combine:before {
+  content: '\53';
+}
+
+.cnh-evo-icon-delete:before {
+  content: '\54';
+}
+
+.cnh-evo-icon-delete-1:before {
+  content: '\55';
+}
+
+.cnh-evo-icon-down-arrow-thick:before {
+  content: '\56';
+}
+
+.cnh-evo-icon-download:before {
+  content: '\57';
+}
+
+.cnh-evo-icon-download-1:before {
+  content: '\58';
+}
+
+.cnh-evo-icon-edit:before {
+  content: '\59';
+}
+
+.cnh-evo-icon-error-square:before {
+  content: '\5a';
+}
+
+.cnh-evo-icon-eye:before {
+  content: '\30';
+}
+
+.cnh-evo-icon-eye-canceled:before {
+  content: '\31';
+}
+
+.cnh-evo-icon-farm:before {
+  content: '\32';
+}
+
+.cnh-evo-icon-fertilizer:before {
+  content: '\33';
+}
+
+.cnh-evo-icon-file:before {
+  content: '\35';
+}
+
+.cnh-evo-icon-filter:before {
+  content: '\36';
+}
+
+.cnh-evo-icon-filter-empty:before {
+  content: '\37';
+}
+
+.cnh-evo-icon-filter-fill:before {
+  content: '\38';
+}
+
+.cnh-evo-icon-filters-01:before {
+  content: '\39';
+}
+
+.cnh-evo-icon-sort-desc:before {
+  content: '\21';
+}
+
+.cnh-evo-icon-fog:before {
+  content: '\22';
+}
+
+.cnh-evo-icon-forward-squre:before {
+  content: '\23';
+}
+
+.cnh-evo-icon-go-to:before {
+  content: '\24';
+}
+
+.cnh-evo-icon-goto-arrow:before {
+  content: '\25';
+}
+
+.cnh-evo-icon-grower:before {
+  content: '\27';
+}
+
+.cnh-evo-icon-guidance:before {
+  content: '\28';
+}
+
+.cnh-evo-icon-hamburger:before {
+  content: '\29';
+}
+
+.cnh-evo-icon-heavy-rain-shower-day:before {
+  content: '\2a';
+}
+
+.cnh-evo-icon-heavy-rain-shower-night:before {
+  content: '\2b';
+}
+
+.cnh-evo-icon-hierarchy:before {
+  content: '\2c';
+}
+
+.cnh-evo-icon-ice:before {
+  content: '\2d';
+}
+
+.cnh-evo-icon-images:before {
+  content: '\2e';
+}
+
+.cnh-evo-icon-import:before {
+  content: '\2f';
+}
+
+.cnh-evo-icon-informations:before {
+  content: '\3a';
+}
+
+.cnh-evo-icon-layer:before {
+  content: '\3b';
+}
+
+.cnh-evo-icon-layers:before {
+  content: '\3c';
+}
+
+.cnh-evo-icon-list-01:before {
+  content: '\3d';
+}
+
+.cnh-evo-icon-list-02:before {
+  content: '\3e';
+}
+
+.cnh-evo-icon-location:before {
+  content: '\40';
+}
+
+.cnh-evo-icon-machine:before {
+  content: '\5b';
+}
+
+.cnh-evo-icon-machine-upload:before {
+  content: '\5d';
+}
+
+.cnh-evo-icon-map:before {
+  content: '\5e';
+}
+
+.cnh-evo-icon-map-add:before {
+  content: '\5f';
+}
+
+.cnh-evo-icon-marker:before {
+  content: '\60';
+}
+
+.cnh-evo-icon-mask:before {
+  content: '\7b';
+}
+
+.cnh-evo-icon-minus:before {
+  content: '\7e';
+}
+
+.cnh-evo-icon-moon:before {
+  content: '\5c';
+}
+
+.cnh-evo-icon-more:before {
+  content: '\e000';
+}
+
+.cnh-evo-icon-more2:before {
+  content: '\e001';
+}
+
+.cnh-evo-icon-mostly-cloudy:before {
+  content: '\e002';
+}
+
+.cnh-evo-icon-partly-cloudy-night:before {
+  content: '\e003';
+}
+
+.cnh-evo-icon-pdf:before {
+  content: '\e005';
+}
+
+.cnh-evo-icon-placeholder-noicon:before {
+  content: '\e006';
+}
+
+.cnh-evo-icon-planting:before {
+  content: '\e007';
+}
+
+.cnh-evo-icon-plus:before {
+  content: '\e008';
+}
+
+.cnh-evo-icon-portly-sunny:before {
+  content: '\e009';
+}
+
+.cnh-evo-icon-prescription:before {
+  content: '\e00a';
+}
+
+.cnh-evo-icon-prescription-fill:before {
+  content: '\e00b';
+}
+
+.cnh-evo-icon-printer:before {
+  content: '\e00c';
+}
+
+.cnh-evo-icon-profile:before {
+  content: '\e00d';
+}
+
+.cnh-evo-icon-radio-on:before {
+  content: '\e00e';
+}
+
+.cnh-evo-icon-rain:before {
+  content: '\e00f';
+}
+
+.cnh-evo-icon-rain-1:before {
+  content: '\e010';
+}
+
+.cnh-evo-icon-redo:before {
+  content: '\e011';
+}
+
+.cnh-evo-icon-reset:before {
+  content: '\e012';
+}
+
+.cnh-evo-icon-search:before {
+  content: '\e013';
+}
+
+.cnh-evo-icon-search-location:before {
+  content: '\e014';
+}
+
+.cnh-evo-icon-send:before {
+  content: '\e015';
+}
+
+.cnh-evo-icon-send-fly:before {
+  content: '\e016';
+}
+
+.cnh-evo-icon-settings:before {
+  content: '\e017';
+}
+
+.cnh-evo-icon-share:before {
+  content: '\e018';
+}
+
+.cnh-evo-icon-snow-shower-day:before {
+  content: '\e019';
+}
+
+.cnh-evo-icon-snow-shower-night:before {
+  content: '\e01a';
+}
+
+.cnh-evo-icon-spinner:before {
+  content: '\e01b';
+}
+
+.cnh-evo-icon-spinner-1:before {
+  content: '\e01c';
+}
+
+.cnh-evo-icon-star-empty:before {
+  content: '\e01d';
+}
+
+.cnh-evo-icon-star-full:before {
+  content: '\e01e';
+}
+
+.cnh-evo-icon-store:before {
+  content: '\e01f';
+}
+
+.cnh-evo-icon-sun:before {
+  content: '\e020';
+}
+
+.cnh-evo-icon-sun-1:before {
+  content: '\e021';
+}
+
+.cnh-evo-icon-task:before {
+  content: '\e022';
+}
+
+.cnh-evo-icon-temperature:before {
+  content: '\e023';
+}
+
+.cnh-evo-icon-thematization:before {
+  content: '\e024';
+}
+
+.cnh-evo-icon-thunderstorm:before {
+  content: '\e025';
+}
+
+.cnh-evo-icon-undo:before {
+  content: '\e026';
+}
+
+.cnh-evo-icon-upload:before {
+  content: '\e027';
+}
+
+.cnh-evo-icon-warning:before {
+  content: '\e028';
+}
+
+.cnh-evo-icon-warning-2:before {
+  content: '\e029';
+}
+
+.cnh-evo-icon-weather:before {
+  content: '\e02a';
+}
+
+.cnh-evo-icon-windspeed:before {
+  content: '\e02b';
+}
+
+.cnh-evo-icon-xls:before {
+  content: '\e02c';
+}
+
+.cnh-evo-icon-sort-asc:before {
+  content: '\e02d';
+}
+
+.cnh-evo-icon-fotoprint:before {
+  content: '\e02e';
+}
+
+.cnh-evo-icon-import-1:before {
+  content: '\e02f';
+}
+
+.cnh-evo-icon-line:before {
+  content: '\e030';
+}
+
+.cnh-evo-icon-move:before {
+  content: '\e031';
+}
+
+.cnh-evo-icon-ruler:before {
+  content: '\e032';
+}
+
+.cnh-evo-icon-rotate:before {
+  content: '\e033';
+}
+
+.cnh-evo-icon-split:before {
+  content: '\e034';
+}
+
+.cnh-evo-icon-inner-ines:before {
+  content: '\e035';
+}
+
+.cnh-evo-icon-ic-operator:before {
+  content: '\e036';
+}
+
+.cnh-evo-icon-multiselect:before {
+  content: '\e037';
+}
+
+.cnh-evo-icon-feedback:before {
+  content: '\e038';
+}
+
+.cnh-evo-icon-logout:before {
+  content: '\e039';
+}
+
+.cnh-evo-icon-support:before {
+  content: '\e03a';
+}
+
+.cnh-evo-icon-partners:before {
+  content: '\e004';
+}
+
+.cnh-evo-icon-arrow-double:before {
+  content: '\70';
+}
+
+.cnh-evo-icon-setting-fill:before {
+  content: '\e03b';
+}
+
+.cnh-evo-icon-accordion-down:before {
+  content: '\e03c';
+}
+
+.cnh-evo-icon-accordion-up:before {
+  content: '\e03d';
+}
+
+.cnh-evo-icon-alarm:before {
+  content: '\63';
+}
+
+.cnh-evo-icon-chevron-left:before {
+  content: '\4a';
+}
+
+.cnh-evo-icon-old-list-toggle:before {
+  content: '\3f';
+}
+
+.cnh-evo-icon-severityhighactive:before {
+  content: '\e03e';
+}
+
+.cnh-evo-icon-field:before {
+  content: '\34';
+}
+
+.cnh-evo-icon-multiselect-bolder-16:before {
+  content: '\e03f';
+}
+
+.cnh-evo-icon-data-access-full:before {
+  content: '\e040';
+}
+
+.cnh-evo-icon-data-access-select:before {
+  content: '\e041';
+}
+
+.cnh-evo-icon-topbar-apps:before {
+  content: '\e043';
+}
+
+.cnh-evo-icon-topbar-file-transfer:before {
+  content: '\e044';
+}
+
+.cnh-evo-icon-nav-file-transfer:before {
+  content: '\e042';
+}
+
+.cnh-evo-icon-topbar-apps-drawer:before {
+  content: '\e045';
+}
+
+.cnh-evo-icon-old-latmenu-app-dashboard:before {
+  content: '\e046';
+}
+
+.cnh-evo-icon-old-latmenu-app-data:before {
+  content: '\e047';
+}
+
+.cnh-evo-icon-old-latmenu-app-farm:before {
+  content: '\e048';
+}
+
+.cnh-evo-icon-old-latmenu-app-fleet:before {
+  content: '\e049';
+}
+
+.cnh-evo-icon-old-expand-collapse-arrow:before {
+  content: '\26';
+}
+
+.cnh-evo-icon-collapse:before {
+  content: '\7c';
+}
+
+.cnh-evo-icon-latmenu-app-data:before {
+  content: '\7d';
+}
+
+.cnh-evo-icon-latmenu-app-dashboard:before {
+  content: '\e04a';
+}
+
+.cnh-evo-icon-latmenu-app-farm:before {
+  content: '\e04b';
+}
+
+.cnh-evo-icon-latmenu-app-fleet:before {
+  content: '\e04c';
+}
+
+.mat-dialog-actions {
+  float: right;
+}
+.warning{
+  color: #bd1d22;
+}
+.mat-sort-header-sorted{
+  font-weight: 600 !important;
+  color:black;
+}
+@media only screen and (max-width: 768px) {
+  .db-container {
+    grid-template: 456px / 1fr 1fr;
+  }
+}

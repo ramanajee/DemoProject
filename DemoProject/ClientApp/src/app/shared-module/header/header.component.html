@@ -1,0 +1,73 @@
+
+
+<div class="fixed-header">
+  <header>
+    <img src="assets/header-images/nav-file-transfer.png" srcset="assets/header-images/nav-file-transfer@2x.png 2x,
+          assets/header-images/nav-file-transfer@3x.png 3x" class="Nav-File-Transfer">
+    <img src="assets/header-images/nav-profile-cih-copy-3.png" srcset="assets/header-images/nav-profile-cih-copy-3@2x.png 2x,
+          assets/header-images/nav-profile-cih-copy-3@3x.png 3x" class="Nav-Profile-CIH-Copy-3">
+    <div class="dropdown-toggle">
+      <div class="user">
+        LS
+      </div>
+    </div>
+    <img src="assets/header-images/navbar-app-drawer.png" srcset="assets/header-images/navbar-app-drawer@2x.png 2x,
+          assets/header-images/navbar-app-drawer@3x.png 3x" class="Navbar-App-Drawer">
+  </header>
+
+  <div class="sub-header">
+    <div class="logo">
+      <img src="assets/header-images/page-1.png" srcset="assets/header-images/page-1@2x.png 2x,
+            assets/header-images/page-1@3x.png 3x" class="Page-1">
+    </div>
+
+    <div class="drawer">
+      <img src="assets/header-images/menu.png" srcset="assets/header-images/menu@2x.png 2x,
+            assets/header-images/menu@3x.png 3x" class="menu" (click)="openNav()">
+      <span class="dashboard" (click)="openNav()">
+        FARM
+      </span>
+      <div class="main-menu">
+        <ul class="main-menu">
+          <li class="main-menu--item" routerLinkActive="active">
+            <a routerLink="/data-access/my-data">FIELD OVERVIEW</a>
+            <a routerLink="/data-access/partner-data"></a>
+          </li>
+
+          <li class="main-menu--item active" routerLinkActive="active">
+            <a routerLink="/app-integrations">FIELD DATA</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nav-drawer" style="z-index: 90000;" [ngClass]="{'open':drawerOpen}">
+  <ul>
+    <li routerlinkactive="active">
+      <a href="/Dashboard">
+        <img src="assets/dashboard.svg" alt="dashboard image">
+        <span>Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a [ngStyle]="{'cursor':'default'}" class="active" >
+        <img src="assets/farm.svg" alt="farm image">
+        <span>Farm</span>
+      </a>
+    </li>
+    <li>
+      <a>
+        <img src="assets/fleet.svg" alt="fleet image">
+        <span>Fleet</span>
+      </a>
+    </li>
+    <li>
+      <a href="/inbox">
+        <img src="assets/data.svg" alt="data image">
+        <span>Data</span>
+      </a>
+    </li>
+  </ul>
+</div>

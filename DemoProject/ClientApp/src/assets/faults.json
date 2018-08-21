@@ -1,0 +1,468 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href":
+        "https://cnh-evo-beta-api.azure-api.net/fleet-restapi/faults?page=0&size=20"
+    },
+    {
+      "rel": "self",
+      "href":
+        "https://cnh-evo-beta-api.azure-api.net/fleet-restapi/faults?page=0&size=20"
+    },
+    {
+      "rel": "next",
+      "href":
+        "https://cnh-evo-beta-api.azure-api.net/fleet-restapi/faults?page=1&size=20"
+    },
+    {
+      "rel": "last",
+      "href":
+        "https://cnh-evo-beta-api.azure-api.net/fleet-restapi/faults?page=1&size=20"
+    }
+  ],
+  "content": [
+    {
+      "id": 20553,
+      "title": "Engine Coolant Temperature HIGH",
+      "message": "Engine Coolant Temperature HIGH",
+      "active": true,
+      "severity": "HIGH",
+      "source": "DISPLAY",
+      "code": "A-0000",
+      "occurrences": 1,
+      "created": "2018-06-22T16:02:31Z",
+      "received": "2018-06-22T16:02:34.506Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7635879, -87.9224853],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.085, "unit": "h" }
+      }
+    },
+    {
+      "id": 20556,
+      "title": "Wait For Rotor To Slow Down",
+      "message": "Wait For Rotor To Slow Down",
+      "active": true,
+      "severity": "HIGH",
+      "source": "DISPLAY",
+      "code": "A-0103",
+      "occurrences": 1,
+      "created": "2018-06-22T16:02:41Z",
+      "received": "2018-06-22T16:02:49.483Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7635879, -87.9224853],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.085, "unit": "h" }
+      }
+    },
+    {
+      "id": 20557,
+      "title": "Swing out Unloader",
+      "message": "Swing out Unloader",
+      "active": true,
+      "severity": "HIGH",
+      "source": "DISPLAY",
+      "code": "A-0111",
+      "occurrences": 1,
+      "created": "2018-06-22T16:02:41Z",
+      "received": "2018-06-22T16:02:51.287Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7635879, -87.9224853],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.085, "unit": "h" }
+      }
+    },
+    {
+      "id": 20688,
+      "title": "UCM2 not detected",
+      "message": "UCM2 not detected",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2003",
+      "occurrences": 0,
+      "created": "2018-07-05T18:19:57Z",
+      "received": "2018-07-05T18:20:01.992Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634086, -87.9224472],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.309, "unit": "h" }
+      }
+    },
+    {
+      "id": 20697,
+      "title": "ICP not dectected",
+      "message": "ICP not dectected",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2004",
+      "occurrences": 0,
+      "created": "2018-07-05T20:16:39Z",
+      "received": "2018-07-05T20:16:51.091Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7637786, -87.9223327],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.274, "unit": "h" }
+      }
+    },
+    {
+      "id": 20694,
+      "title": "ECU not detected",
+      "message": "ECU not detected",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2007",
+      "occurrences": 0,
+      "created": "2018-07-05T20:16:39Z",
+      "received": "2018-07-05T20:16:45.197Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7637786, -87.9223327],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.274, "unit": "h" }
+      }
+    },
+    {
+      "id": 20713,
+      "title": "UCM1 communication lost",
+      "message": "UCM1 communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2014",
+      "occurrences": 8,
+      "created": "2018-07-05T21:12:40Z",
+      "received": "2018-07-05T21:13:03.188Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634544, -87.9224548],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.244, "unit": "h" }
+      }
+    },
+    {
+      "id": 20714,
+      "title": "UCM2 communication lost",
+      "message": "UCM2 communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2015",
+      "occurrences": 3,
+      "created": "2018-07-05T21:12:40Z",
+      "received": "2018-07-05T21:13:05.685Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634544, -87.9224548],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.244, "unit": "h" }
+      }
+    },
+    {
+      "id": 20724,
+      "title": "ICP communication lost",
+      "message": "ICP communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2016",
+      "occurrences": 2,
+      "created": "2018-07-05T21:17:31Z",
+      "received": "2018-07-05T21:17:54.089Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634735, -87.9225082],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.074, "unit": "h" }
+      }
+    },
+    {
+      "id": 20717,
+      "title": "ACM communication lost",
+      "message": "ACM communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2017",
+      "occurrences": 2,
+      "created": "2018-07-05T21:12:43Z",
+      "received": "2018-07-05T21:13:20.187Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634544, -87.9224548],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.244, "unit": "h" }
+      }
+    },
+    {
+      "id": 20725,
+      "title": "ECU communication lost",
+      "message": "ECU communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2019",
+      "occurrences": 5,
+      "created": "2018-07-05T21:17:31Z",
+      "received": "2018-07-05T21:17:56.512Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634735, -87.9225082],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.074, "unit": "h" }
+      }
+    },
+    {
+      "id": 20691,
+      "title": "H-Bridge #1 not detected",
+      "message": "H-Bridge #1 not detected",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2021",
+      "occurrences": 0,
+      "created": "2018-07-05T18:20:01Z",
+      "received": "2018-07-05T18:20:17.589Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634277, -87.9223785],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.309, "unit": "h" }
+      }
+    },
+    {
+      "id": 20726,
+      "title": "H-Bridge #1 communication lost",
+      "message": "H-Bridge #1 communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2025",
+      "occurrences": 5,
+      "created": "2018-07-05T21:17:33Z",
+      "received": "2018-07-05T21:18:06.293Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634735, -87.9225082],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.074, "unit": "h" }
+      }
+    },
+    {
+      "id": 20711,
+      "title": "H-Bridge #2 communication lost",
+      "message": "H-Bridge #2 communication lost",
+      "active": true,
+      "severity": "HIGH",
+      "source": "DISPLAY",
+      "code": "A-2026",
+      "occurrences": 5,
+      "created": "2018-07-05T21:12:37Z",
+      "received": "2018-07-05T21:12:50.685Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634544, -87.9224548],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.244, "unit": "h" }
+      }
+    },
+    {
+      "id": 20720,
+      "title": "DCU communication lost",
+      "message": "DCU communication lost",
+      "active": true,
+      "severity": "HIGH",
+      "source": "DISPLAY",
+      "code": "A-2028",
+      "occurrences": 7,
+      "created": "2018-07-05T21:17:22Z",
+      "received": "2018-07-05T21:17:35.088Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634735, -87.9225082],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.074, "unit": "h" }
+      }
+    },
+    {
+      "id": 20696,
+      "title": "Yield sensor not detected",
+      "message":
+        "Please recycle power. See operators manual if problem continues.",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2029",
+      "occurrences": 0,
+      "created": "2018-07-05T20:16:39Z",
+      "received": "2018-07-05T20:16:49.190Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7637786, -87.9223327],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.274, "unit": "h" }
+      }
+    },
+    {
+      "id": 20715,
+      "title": "Yield sensor communication lost",
+      "message": "Yield sensor communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2030",
+      "occurrences": 2,
+      "created": "2018-07-05T21:12:41Z",
+      "received": "2018-07-05T21:13:08.391Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634544, -87.9224548],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.244, "unit": "h" }
+      }
+    },
+    {
+      "id": 20692,
+      "title": "HVAC  not detected",
+      "message": "HVAC  not detected",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2033",
+      "occurrences": 0,
+      "created": "2018-07-05T18:20:01Z",
+      "received": "2018-07-05T18:20:19.887Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634277, -87.9223785],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 100.309, "unit": "h" }
+      }
+    },
+    {
+      "id": 20727,
+      "title": "HVAC communication lost",
+      "message": "HVAC communication lost",
+      "active": false,
+      "severity": "LOW",
+      "source": "DISPLAY",
+      "code": "A-2034",
+      "occurrences": 3,
+      "created": "2018-07-05T21:17:33Z",
+      "received": "2018-07-05T21:18:08.387Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7634735, -87.9225082],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.074, "unit": "h" }
+      }
+    },
+    {
+      "id": 20678,
+      "title": "Crop flow detected but machine not recording",
+      "message": "Check system inputs. See Operator’s Manual.",
+      "active": true,
+      "severity": "MEDIUM",
+      "source": "DISPLAY",
+      "code": "YM-241",
+      "occurrences": 3,
+      "created": "2018-07-02T17:00:02Z",
+      "received": "2018-07-02T17:00:05.287Z",
+      "assetDetail": {
+        "id": "c6cd4b37-be6f-9ed0-bdc1-43a92ff01dfa",
+        "name": "QA AM53 1223-09001CF1",
+        "model": "Axial-Flow 8230",
+        "brand": "Case IH",
+        "type": { "code": "COMBINE", "name": "Combine" },
+        "location": [41.7635192, -87.9223937],
+        "fleets": [{ "id": 1, "name": "CNH EVO" }],
+        "engineHours": { "value": 0.271, "unit": "h" }
+      }
+    }
+  ],
+  "page": { "size": 20, "totalElements": 31, "totalPages": 2, "number": 0 }
+}

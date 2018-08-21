@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="36px" viewBox="0 0 28 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-file-zip</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-file-zip">
+            <path d="M27.494,7.507 L27.019,7.032 L20.8,0.814 L20.325,0.339 C20.1078232,0.12298777 19.8143097,0.00119942259 19.508,0 L1.63,0 C0.9,0 0.113,0.564 0.113,1.802 L0.113,34.494 C0.113,35.009 0.632,35.512 1.245,35.67 C1.276,35.678 1.305,35.69 1.338,35.696 C1.434,35.715 1.532,35.726 1.63,35.726 L26.314,35.726 C26.413,35.726 26.511,35.715 26.607,35.696 C26.639,35.69 26.668,35.678 26.699,35.67 C27.313,35.512 27.831,35.01 27.831,34.494 L27.831,8.61 C27.831,8.137 27.775,7.789 27.493,7.507 L27.494,7.507 Z" id="Shape" fill="#3C3C3C" fill-rule="nonzero"></path>
+            <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="25.636 7.391 20.441 7.391 20.441 2.196"></polygon>
+            <path d="M1.346,34.26 L1.346,1.801 C1.346,1.668 1.366,1.231 1.631,1.231 L19.245,1.231 C19.2227674,1.30912729 19.2106683,1.38978806 19.209,1.471 L19.209,8.622 L26.359,8.622 C26.4401722,8.62070168 26.5208378,8.60893795 26.599,8.587 L26.6,34.258 L1.346,34.258 L1.346,34.26 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <text id="ZIP" fill-opacity="0.8" fill="#000000" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold">
+                <tspan x="6.387" y="22"></tspan>
+            </text>
+        </g>
+    </g>
+</svg>

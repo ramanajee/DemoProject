@@ -1,0 +1,95 @@
+
+<app-loader *ngIf="isLoading"></app-loader>
+<div class="cnh-inbox" *ngIf="!isLoading">
+    <!-- <div class="cnh-table--header">
+
+        <div class="cnh-inbox--sorter">
+
+            <cnh-inbox-sorter (sorting)="onSortableClicked($event)"></cnh-inbox-sorter>
+        </div>
+    </div> -->
+    <div class="cnh-table--body">
+        <div class="cnh-inbox--table">
+            <div class="cnh-loader cnh-loader-default">
+                <div class="tc-content-box">
+                    <ng-container >
+                        <table mat-table  [dataSource]="dataSource" class="mat-elevation-22" matSort [ngClass]="{ checkTab: onTabClicked(dataSet)}"  matSortActive="Name" matSortDirection="asc" matSortDisableClear>
+                                <!-- Name Column -->
+                                <ng-container matColumnDef="Name">
+                                    <th mat-header-cell  mat-sort-header *matHeaderCellDef > CONFLICT NAME </th>
+                                   
+                                </ng-container>
+                                
+                                <!-- Weight Column -->
+                                <ng-container matColumnDef="ConflictType">
+                                    <th mat-header-cell mat-sort-header *matHeaderCellDef> CONFLICT TYPE </th>
+                                    
+                                    
+                                </ng-container>
+                                
+                                <!-- Symbol Column -->
+                                <ng-container matColumnDef="Source">
+                                    <th mat-header-cell mat-sort-header *matHeaderCellDef> SOURCE </th>
+                                   
+                                </ng-container>
+
+                                <ng-container matColumnDef="CreatedTime">
+                                    <th mat-header-cell mat-sort-header *matHeaderCellDef> DATE/TIME </th>
+                                </ng-container>
+                                <ng-container matColumnDef="Resolve">
+                                    <th mat-header-cell mat-sort-header *matHeaderCellDef>  </th>
+                                </ng-container>
+                                
+                                <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+                                <!-- <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr> -->
+                        </table>
+                        <table mat-table  [dataSource]="dataSource" class="mat-elevation" matSort [ngClass]="{ checkTab: onTabClicked(dataSet)}">
+                                
+                                <!-- Name Column -->
+                                <ng-container matColumnDef="Name">
+                                    <td mat-cell *matCellDef="let element">
+                                        <div class="text">
+                                            <div class="element-text" [innerHTML]="element.Name | cnhHighlight: searchString"></div>
+                                        </div>
+                                        <div>
+                                            {{element.Fields[1].GrowerName}}&nbsp;/&nbsp;{{element.Fields[1].FarmName}}&nbsp;/&nbsp;{{element.Fields[1].Name}}
+                                        </div>
+                                    </td>
+                                </ng-container>
+                                
+                                <!-- Weight Column -->
+                                <ng-container matColumnDef="ConflictType">
+                                    <td mat-cell *matCellDef="let element">
+                                        <div class="text">
+                                            <div class="element-text" [innerHTML]="element.ConflictType | cnhHighlight: searchString"></div>
+                                        </div> 
+                                    </td>    
+                                </ng-container>
+                                
+                                <!-- Symbol Column -->
+                                <ng-container matColumnDef="Source">
+                                    <td mat-cell *matCellDef="let element">
+                                        <div class="text">
+                                            <div class="element-text" [innerHTML]="element.Source | cnhHighlight: searchString"></div>
+                                        </div> 
+                                    </td>    
+                                </ng-container>
+
+                                <ng-container matColumnDef="CreatedTime">
+                                    <td mat-cell *matCellDef="let element"> {{element.CreatedTime | date:'MM/dd/yyyy'}} </td>
+                                </ng-container>
+                                <ng-container matColumnDef="Resolve">
+                                        <td mat-cell *matCellDef="let element"> </td>
+                                    </ng-container>
+                                
+                                <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr> -->
+                                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                        </table>
+
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

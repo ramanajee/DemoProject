@@ -1,0 +1,61 @@
+[
+    {
+      "companyId": 1,
+      "companyName": "Company Name 1",
+      "noOfConflicts": 10,
+      "mostRecent": "Some thing",
+      "contacts": [
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        },
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        }
+      ]
+    },
+    {
+      "companyId": 2,
+      "companyName": "Company Name 2",
+      "noOfConflicts": 20,
+      "mostRecent": "Some thing",
+      "contacts": [
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        },
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        }
+      ]
+    },
+    {
+      "companyId": 3,
+      "companyName": "Company Name 3",
+      "noOfConflicts": 30,
+      "mostRecent": "Some thing",
+      "contacts": [
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        },
+        {
+          "name": "Some Name",
+          "email": "someEmail@gmail.com",
+          "phone": "8887788877"
+        },
+        {
+            "name": "Some Name",
+            "email": "someEmail@gmail.com",
+            "phone": "8887788877"
+          }
+      ]
+    }
+  ]

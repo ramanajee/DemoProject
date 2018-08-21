@@ -1,0 +1,22 @@
+<div class="cnh-utility-bar">
+    <div class="top-row">
+        <div class="cnh-utility-bar--searchbar">
+            <div class="utility-element">
+                <div class="utility-button">
+                    <span class="cnh-evo-iconfont cnh-evo-icon-search"></span>
+                </div>
+                <cnh-search [placeholder]="'Search'" [(value)]="searchValue" (valueChange)="onSearchValueChange($event)"></cnh-search>
+            </div>
+
+        </div>
+        <div class="cnh-utility-bar--left">
+            <ng-content select="[slot-left]"></ng-content>
+        </div>
+        <div class="cnh-utility-bar--right">
+            <ng-content select="[slot-right]"></ng-content>
+        </div>
+    </div>
+</div>
+<div class="cnh-page-inbox">
+    <company-grid-list [searchString]="currentSearch$ | async" [dataSet]="fileList$ | async"></company-grid-list>
+</div>

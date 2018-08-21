@@ -1,0 +1,158 @@
+{
+  "totalfuel": "7500",
+  "avgFuelRate": "15",
+  "Totalvehicles": 18,
+  "vehicleData": [
+    {
+      "totalFuel": 1000,
+      "date": "07/07/18",
+
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "100"
+        },
+        {
+          "name": "Vehicle Name 2",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "200"
+        },
+        {
+          "name": "Vehicle Name 3",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "300"
+        },
+        {
+          "name": "Vehicle Name 4",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "400"
+        }
+      ]
+    },
+    {
+      "totalFuel": 300,
+      "date": "07/06/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "300"
+        }
+      ]
+    },
+    {
+      "totalFuel": 900,
+      "date": "07/05/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "500"
+        },
+        {
+          "name": "Vehicle Name 2",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "400"
+        }
+      ]
+    },
+    {
+      "totalFuel": 1000,
+      "date": "07/04/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": "1000"
+        }
+      ]
+    },
+    {
+      "totalFuel": 1200,
+      "date": "07/03/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 600
+        },
+        {
+          "name": "Vehicle Name 2",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 600
+        }
+      ]
+    },
+    {
+      "totalFuel": 1400,
+      "date": "07/02/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 400
+        },
+        {
+          "name": "Vehicle Name 2",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 400
+        },
+        {
+          "name": "Vehicle Name 3",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 400
+        },
+        {
+          "name": "Vehicle Name 4",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 200
+        }
+      ]
+    },
+    {
+      "totalFuel": 1600,
+      "date": "07/01/18",
+      "vehicleList": [
+        {
+          "name": "Vehicle Name 1",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 400
+        },
+        {
+          "name": "Vehicle Name 2",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 200
+        },
+        {
+          "name": "Vehicle Name 3",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 500
+        },
+        {
+          "name": "Vehicle Name 4",
+          "brand": "Brand Model",
+          "pin": "PIN",
+          "fuel": 500
+        }
+      ]
+    }
+  ]
+}
