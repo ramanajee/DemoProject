@@ -1,10 +1,9 @@
-import { Component, Input, ElementRef, ViewChild } from '@angular/core';
+import { Component, Input, ViewChild } from '@angular/core';
 import { DataFile } from '../abstracts/data-file.model';
 import { DataFileService } from '../abstracts/data-file.service';
 import { DataFileStore } from '../abstracts/data-file.store';
-import {  MatTableDataSource,MatSort } from '@angular/material';
+import { MatTableDataSource, MatSort } from '@angular/material';
 
-import { Observable } from '../../../../../node_modules/rxjs';
 @Component({
   selector: 'cnh-inbox-list',
   templateUrl: './cnh-inbox-list.component.html',

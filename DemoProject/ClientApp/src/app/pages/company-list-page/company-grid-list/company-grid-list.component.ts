@@ -28,7 +28,7 @@ export class companyGridListComponent {
 
 
   
-  constructor(
+  constructor(CONFLICT TYPE 
     private dataFileFileService: DataFileService,
     private dataFileStore: DataFileStore,
     private router: Router,
